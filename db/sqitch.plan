@@ -1,0 +1,6 @@
+%syntax-version=1.0.0
+%project=votebot
+%uri=https://github.com/thequux/votebot
+
+basic-db 2016-01-27T13:22:11Z TQ Hirsch <thequux@thequux.com> # Mock up database structure
+topic-comments [basic-db] 2016-02-02T20:54:23Z TQ Hirsch <thequux@thequux.com> # Add comments column to topic table
