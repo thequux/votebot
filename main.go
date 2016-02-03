@@ -5,14 +5,12 @@ import (
 	_ "github.com/lib/pq"
 	_ "github.com/mattn/go-sqlite3"
 	"flag"
-	"database/sql"
 	"fmt"
 	"os"
 	"github.com/Sirupsen/logrus"
 )
 
 var (
-	db *sql.DB
 	dbPath = flag.String("db", "votebot.sqlite3", "Database file")
 )
 
